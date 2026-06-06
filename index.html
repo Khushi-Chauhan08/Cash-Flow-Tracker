@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+     <div class="form">
+    <h2>Cash Flow Tracker</h2>
+
+   
+    <input type="number" id="salaryInput" placeholder="Enter Salary">
+    <button id="setSalary">Set Salary</button>
+
+    <h3 id="salaryDisplay">Salary:0</h3>
+    <input type="text" id="expenseName" placeholder="Expense Name">
+    <input type="number" id="expenseAmount" placeholder="Expense Amount">
+    <button id="addExpense">Add Expense</button>
+
+    <ul id="expenseList"></ul>
+
+    <h3 id="totalExpense">Total Expense</h3>
+    <h3 id="balance">Remaining Balance</h3>
+    <button id="downloadPDF">Download PDF</button>
+</div>
+<div class="chart-box">
+    <canvas id="myChart"></canvas>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>

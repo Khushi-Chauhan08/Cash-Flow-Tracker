@@ -1,0 +1,13 @@
+.container {
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+     gap: 40px;
+    }
+    .form{
+        flex: 1;
+    }
+    .chart-box {
+      width: 350px;
+      height: 350px;
+    }
